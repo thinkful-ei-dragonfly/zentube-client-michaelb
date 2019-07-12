@@ -29,7 +29,7 @@ View a single post:
 Leave a comment:
 ![screenshot](/screenshots/leave-comment.png?raw=true)
 
-## COMPONENTS
+<!-- ## COMPONENTS
 zentube-client-michaelb/
      src/
         components/
@@ -48,7 +48,7 @@ zentube-client-michaelb/
           Utils/
              Utils.js             Various Utilites
           VideoPlayer/
-             VideoPlayer.js       HTML5 video player
+             VideoPlayer.js       HTML5 video player -->
 
 ## Scripts
 
