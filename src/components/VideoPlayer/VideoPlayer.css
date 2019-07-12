@@ -1,0 +1,56 @@
+.play_pause_button {
+  outline: none;
+  float: left;
+  border: none;
+  color: #ffffff;
+  background: #000000;
+}
+
+.time_range {
+  /* float: left; */
+  width: 90%;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.time_range:hover {
+  opacity: 1;
+}
+
+.loop {
+  left: 560px;
+  height: 30px;
+  width: 30px;
+  background-size: 50% 50%;
+  border: 0;
+}
+
+.fullScreen {
+  left: 620px;
+  height: 30px;
+  width: 30px;
+  background-size: 50% 50%;
+  border: 0;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.comments {
+  position: absolute;
+  z-index: 2;
+  left: 250px;
+}

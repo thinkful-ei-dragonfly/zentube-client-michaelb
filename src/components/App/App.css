@@ -1,0 +1,24 @@
+.App {
+  height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* max-width: 500px; */
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  overflow: hidden;
+
+}
+
+.App__header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App__main {
+  height: calc(100vh - 70px);
+  overflow: auto;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
