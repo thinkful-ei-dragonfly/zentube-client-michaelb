@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Header from '../Header/Header'
+import LandingPage from '../LandingPage/LandingPage'
 import PrivateRoute from '../Utils/PrivateRoute'
 import PublicOnlyRoute from '../Utils/PublicOnlyRoute'
 import PostListPage from '../../routes/PostListPage/PostListPage'
@@ -87,6 +88,11 @@ class App extends Component {
             <Route
               exact
               path={'/'}
+              component={LandingPage}
+            />
+            <Route
+              exact
+              path={'/posts'}
               component={PostListPage}
             />
             <PublicOnlyRoute
