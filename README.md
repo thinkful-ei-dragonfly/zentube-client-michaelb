@@ -38,21 +38,37 @@ Leave a comment:
 src/
 
 &nbsp;&nbsp;components/
+
 &nbsp;&nbsp;&nbsp;&nbsp;App/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js              Main routes
+
 &nbsp;&nbsp;&nbsp;&nbsp;CommentForm/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CommentForm.js       CommentForm
+
 &nbsp;&nbsp;&nbsp;&nbsp;Header/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header.js            Header / Navigation
+
 &nbsp;&nbsp;&nbsp;&nbsp;LoginForm/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LoginForm.js         Login Form
+
 &nbsp;&nbsp;&nbsp;&nbsp;PostListItem/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PostListItem.js      List all posts
+
 &nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm.js  Registration Form
-&nbsp;&nbsp;&nbsp;&nbsp;tils/
+
+&nbsp;&nbsp;&nbsp;&nbsp;Utils/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utils.js             Various Utilites
-&nbsp;&nbsp;&nbsp;&nbsp;ideoPlayer/
+
+&nbsp;&nbsp;&nbsp;&nbsp;VideoPlayer/
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoPlayer.js       HTML5 video player
 
 ## Scripts
