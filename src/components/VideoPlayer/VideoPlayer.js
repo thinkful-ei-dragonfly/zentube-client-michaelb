@@ -14,7 +14,7 @@ export default class VideoPlayer extends Component {
       length: null,
       formattedLength: null,
       currentTime: 0,
-      comments: []
+      comments: [],
     }
   }
 
@@ -90,13 +90,13 @@ export default class VideoPlayer extends Component {
   }
   
   render() {
-    // let content = PostComments(this.state.comments)
-    
+    let width=window.innerWidth
+    if (width > 800) { width = 750 }
     return (
       <>
         <div className="VideoPlayer visible" >
 
-          <video id="v" width="auto" height="auto">
+          <video id="v" width={width} height="auto">
             <source src={this.props.src} type="video/mp4" />
           </video>
 

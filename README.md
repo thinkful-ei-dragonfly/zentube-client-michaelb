@@ -1,5 +1,9 @@
 # zentube client
 
+## Live Site
+
+https://zentube.michaelbravo777.now.sh/
+
 ## Description
 
 Currently works as a youTube clone.  Features to be added:
@@ -29,10 +33,10 @@ View a single post:
 Leave a comment:
 ![screenshot](/screenshots/leave-comment.png?raw=true)
 
-<!-- ## COMPONENTS
+## COMPONENTS
 zentube-client-michaelb/
      src/
-        components/
+        <!-- components/
            App/
               App.js              Main routes
           CommentForm/

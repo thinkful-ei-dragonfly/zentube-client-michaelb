@@ -11,7 +11,8 @@ export default class CommentForm extends Component {
     ev.preventDefault()
     const { post } = this.context
     const { text } = ev.target
-    PostApiService.postComment(post.id, text.value)
+    const { comment_time } = 0
+    PostApiService.postComment(post.id, text.value, comment_time)
       .then(this.context.addComment)
       .then(() => {
         text.value = ''
