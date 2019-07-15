@@ -37,7 +37,7 @@ const postApiService = {
           : res.json()
       )
   },
-  postComment(postId, text) {
+  postComment(postId, text, comment_time) {
     return fetch(`${config.API_ENDPOINT}/comments`, {
       method: 'POST',
       headers: {
@@ -47,6 +47,7 @@ const postApiService = {
       body: JSON.stringify({
         post_id: postId,
         text,
+        comment_time,
       }),
     })
       .then(res =>
