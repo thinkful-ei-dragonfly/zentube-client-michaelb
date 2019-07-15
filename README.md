@@ -37,21 +37,21 @@ Leave a comment:
 
 src/components/App/App.js - Main routes
 
-src/components/CommentForm/CommentForm.js       CommentForm
+src/components/CommentForm/CommentForm.js - CommentForm
 
-src/components/Header/Header.js            Header / Navigation
+src/components/Header/Header.js - Header / Navigation
 
-src/components/LoginForm/LoginForm.js         Login Form
+src/components/LoginForm/LoginForm.js - Login Form
 
-src/components/PostListItem/PostListItem.js      List all posts
+src/components/PostListItem/PostListItem.js - List all posts
 
-src/components/RegistrationForm/RegistrationForm.js  Registration Form
+src/components/RegistrationForm/RegistrationForm.js - Registration Form
 
-src/components/Utils/Utils.js             Various Utilites
+src/components/Utils/Utils.js - Various Utilites
 
-src/components/VideoPlayer/VideoPlayer.js       HTML5 video player
+src/components/VideoPlayer/VideoPlayer.js - HTML5 video player
 
 ## Install
 
-Install 'npm i'
+Install `npm i`
 Start the application `npm start`
