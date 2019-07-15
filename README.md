@@ -35,41 +35,21 @@ Leave a comment:
 
 ## COMPONENTS
 
-src/
+src/components/App/App.js - Main routes
 
-&nbsp;&nbsp;components/
+src/components/CommentForm/CommentForm.js       CommentForm
 
-&nbsp;&nbsp;&nbsp;&nbsp;App/
+src/components/Header/Header.js            Header / Navigation
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js              Main routes
+src/components/LoginForm/LoginForm.js         Login Form
 
-&nbsp;&nbsp;&nbsp;&nbsp;CommentForm/
+src/components/PostListItem/PostListItem.js      List all posts
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CommentForm.js       CommentForm
+src/components/RegistrationForm/RegistrationForm.js  Registration Form
 
-&nbsp;&nbsp;&nbsp;&nbsp;Header/
+src/components/Utils/Utils.js             Various Utilites
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header.js            Header / Navigation
-
-&nbsp;&nbsp;&nbsp;&nbsp;LoginForm/
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LoginForm.js         Login Form
-
-&nbsp;&nbsp;&nbsp;&nbsp;PostListItem/
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PostListItem.js      List all posts
-
-&nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm/
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm.js  Registration Form
-
-&nbsp;&nbsp;&nbsp;&nbsp;Utils/
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utils.js             Various Utilites
-
-&nbsp;&nbsp;&nbsp;&nbsp;VideoPlayer/
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoPlayer.js       HTML5 video player
+src/components/VideoPlayer/VideoPlayer.js       HTML5 video player
 
 ## Scripts
 
