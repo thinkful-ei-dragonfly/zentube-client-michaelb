@@ -35,9 +35,9 @@ Leave a comment:
 
 ## COMPONENTS
 zentube-client-michaelb/
-     src/
-        <!-- components/
-           App/
+&nbsp;&nbsp;src/
+&nbsp;&nbsp;&nbsp;&nbsp;components/
+           <!-- App/
               App.js              Main routes
           CommentForm/
              CommentForm.js       CommentForm
