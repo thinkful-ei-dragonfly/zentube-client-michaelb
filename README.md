@@ -34,27 +34,26 @@ Leave a comment:
 ![screenshot](/screenshots/leave-comment.png?raw=true)
 
 ## COMPONENTS
-zentube-client-michaelb/
 
-&nbsp;&nbsp;src/
+src/
 
-&nbsp;&nbsp;&nbsp;&nbsp;components/
-           <!-- App/
-              App.js              Main routes
-          CommentForm/
-             CommentForm.js       CommentForm
-          Header/
-             Header.js            Header / Navigation
-          LoginForm/
-             LoginForm.js         Login Form
-          PostListItem/
-             PostListItem.js      List all posts
-          RegistrationForm/
-             RegistrationForm.js  Registration Form
-          Utils/
-             Utils.js             Various Utilites
-          VideoPlayer/
-             VideoPlayer.js       HTML5 video player -->
+&nbsp;&nbsp;components/
+&nbsp;&nbsp;&nbsp;&nbsp;App/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App.js              Main routes
+&nbsp;&nbsp;&nbsp;&nbsp;CommentForm/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CommentForm.js       CommentForm
+&nbsp;&nbsp;&nbsp;&nbsp;Header/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header.js            Header / Navigation
+&nbsp;&nbsp;&nbsp;&nbsp;LoginForm/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LoginForm.js         Login Form
+&nbsp;&nbsp;&nbsp;&nbsp;PostListItem/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PostListItem.js      List all posts
+&nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RegistrationForm.js  Registration Form
+&nbsp;&nbsp;&nbsp;&nbsp;tils/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Utils.js             Various Utilites
+&nbsp;&nbsp;&nbsp;&nbsp;ideoPlayer/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VideoPlayer.js       HTML5 video player
 
 ## Scripts
 
