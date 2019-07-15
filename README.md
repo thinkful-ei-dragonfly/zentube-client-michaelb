@@ -51,6 +51,7 @@ src/components/Utils/Utils.js             Various Utilites
 
 src/components/VideoPlayer/VideoPlayer.js       HTML5 video player
 
-## Scripts
+## Install
 
+Install 'npm i'
 Start the application `npm start`
